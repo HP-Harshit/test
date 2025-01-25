@@ -1,0 +1,36 @@
+# Ignore everything
+/*
+
+# Except the `src` directory and specific configuration files at the root level
+!.gitignore
+!/src/
+!src/**
+
+# Ignore IntelliJ IDEA specific files and directories
+.idea/
+*.iml
+.DS_Store
+
+# Exclude build and dependency management directories
+/target/
+/out/
+/bin/
+/classes/
+/build/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.vscode/
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+# Optionally ignore specific files or directories within `src`
+# Uncomment the following lines if necessary
+# src/some_directory_you_want_to_ignore/
+# src/some_file_you_want_to_ignore.ext
